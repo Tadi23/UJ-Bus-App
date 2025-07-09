@@ -1,5 +1,7 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { View } from 'react-native';
+import { TextInput } from 'react-native';
 import Home from './screens/Home';
 import Schedule from './screens/Schedule';
 import Rating from './screens/Rating';
